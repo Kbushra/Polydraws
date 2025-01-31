@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BG",
-    "path":"folders/Sprites/BG.yy",
+    "name":"Deco",
+    "path":"folders/Sprites/Deco.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

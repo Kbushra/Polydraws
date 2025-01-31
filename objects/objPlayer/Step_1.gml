@@ -12,8 +12,10 @@ if !place_free(x-1, y) { x++; }
 
 verticalChecks();
 
-hMovement = lerp(hMovement, (global.r - global.l)*2, 0.2);
+var spd = 3;
+if sprite_index == sprCircle { spd = 4.5; }
+hMovement = lerp(hMovement, (global.r - global.l)*spd, 0.2);
 	
 if hMovement != 0 && place_free(x+hMovement, y) { x += hMovement; }
 	
-if global.jump && grounded { vMovement = -5.5; grounded = false; }
+if global.jump && grounded { vMovement = -6.5; grounded = false; }

@@ -1,0 +1,1 @@
+if !solid { sprite_index = sprPlanksBreak; }

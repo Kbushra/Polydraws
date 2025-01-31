@@ -2,6 +2,7 @@ if global.wait > 0 { exit; }
 
 objPlayer.x = lerp(objPlayer.x, x, 0.1);
 objPlayer.y = lerp(objPlayer.y, y, 0.1);
+objPlayer.vMovement = 0;
 
 timer--;
 if timer <= 0
@@ -15,5 +16,5 @@ if timer <= 0
 		y = other.yPos;
 	}
 	
-	global.wait = 60;
+	global.wait = 120;
 }

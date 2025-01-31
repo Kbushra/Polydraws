@@ -1,0 +1,1 @@
+global.resRoom = room;

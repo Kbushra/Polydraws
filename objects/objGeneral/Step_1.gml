@@ -1,4 +1,7 @@
 global.confirm = keyboard_check_pressed(vk_enter);
+global.respawn = keyboard_check_pressed(ord("R"));
+
+if global.respawn { game_restart(); exit; }
 
 if !global.movement { exit; }
 
