@@ -7,3 +7,4 @@ if sprite_index == sprCircleForm { sprite_index = sprCircle; }
 forming = false;
 targ = 0;
 global.movement = true;
+audio_stop_sound(sndScribble);

@@ -1,3 +1,5 @@
+audio_sound_set_track_position(sndPop, 0.2);
+
 random_get_seed();
 
 global.movement = true;

@@ -5,13 +5,21 @@ if global.shape1 || global.shape2 || global.shape3
 	if global.shape3 { targ = 3; }
 		
 	top = 0;
+	audio_play_sound(sndRubber, 10, false);
 }
 
 if top != -1
 {
 	draw_sprite_part(sprite_index, image_index, 0, top, sprite_width, sprite_height-top, x-24, y-24+top);
 	top += 2;
-	if top >= sprite_height+20 { top = -1; forming = true; }
+	
+	if top >= sprite_height+20
+	{
+		top = -1;
+		forming = true;
+		audio_stop_sound(sndRubber);
+		audio_play_sound(sndScribble, 10, false);
+	}
 }
 else { draw_self(); }
 

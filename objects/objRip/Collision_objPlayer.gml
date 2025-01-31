@@ -4,6 +4,8 @@ objPlayer.x = lerp(objPlayer.x, x, 0.1);
 objPlayer.y = lerp(objPlayer.y, y, 0.1);
 objPlayer.vMovement = 0;
 
+if !audio_is_playing(sndSuck) { audio_play_sound(sndSuck, 10, false); }
+
 timer--;
 if timer <= 0
 {
