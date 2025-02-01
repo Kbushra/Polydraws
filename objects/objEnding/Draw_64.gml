@@ -5,6 +5,6 @@ timer2--;
 if timer2 <= 0
 {
 	draw_sprite(sprTitle, 0, 0, 0);
-	draw_sprite(sprSecretsComment, global.notes==4, 590, 160);
+	draw_sprite(sprSecretsComment, global.notes==5, 590, 160);
 	draw_sprite(sprClose, 0, 590, 200);
 }

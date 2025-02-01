@@ -12,8 +12,6 @@ function verticalChecks()
 
 function pauseMovement()
 {
-	global.confirm = false;
-	global.escape = false;
 	global.jump = false;
 	
 	global.l = false;

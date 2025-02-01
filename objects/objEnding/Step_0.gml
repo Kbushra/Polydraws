@@ -21,6 +21,8 @@ if timer <= 0
 		instance_create_layer(960, 250, "Instances", objRip);
 		audio_play_sound(sndSuck, 10, false);
 	}
+	
+	audio_play_sound(sndAppear, 10, false);
 }
 
 if times >= 4
@@ -29,5 +31,13 @@ if times >= 4
 	objPlayer.y = lerp(objPlayer.y, 250, 0.1);
 	objPlayer.vMovement = 0;
 	
-	if !audio_is_playing(sndSuck) { ending = true; }
+	if !audio_is_playing(sndSuck)
+	{
+		ending = true;
+		instance_destroy(objRip);
+		
+		ini_open("Polydraws");
+		ini_write_real("Game", "Completed", true);
+		ini_close();
+	}
 }
