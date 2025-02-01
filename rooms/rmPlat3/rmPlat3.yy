@@ -18,6 +18,7 @@
     {"name":"inst_2B499655","path":"rooms/rmPlat3/rmPlat3.yy",},
     {"name":"inst_69C54CA9","path":"rooms/rmPlat3/rmPlat3.yy",},
     {"name":"inst_23922850","path":"rooms/rmPlat3/rmPlat3.yy",},
+    {"name":"inst_448DF274","path":"rooms/rmPlat3/rmPlat3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -29,7 +30,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"targetRoom","path":"objects/objRip/objRip.yy",},"resource":{"name":"rmPlat2","path":"rooms/rmPlat2/rmPlat2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmPlat2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_2B499655","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B499655","objectId":{"name":"objGear","path":"objects/objGear/objGear.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":128.0,},
-        {"$GMRInstance":"v1","%Name":"inst_23922850","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23922850","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":128.0,},
+        {"$GMRInstance":"v1","%Name":"inst_23922850","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23922850","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"xPos","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"160",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"yPos","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"416",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"targetRoom","path":"objects/objRip/objRip.yy",},"resource":{"name":"rmRealPlat1","path":"rooms/rmRealPlat1/rmRealPlat1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmRealPlat1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":128.0,},
+        {"$GMRInstance":"v1","%Name":"inst_448DF274","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_448DF274","objectId":{"name":"objSpike","path":"objects/objSpike/objSpike.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":15.222222,"scaleY":1.0,"x":1077.8889,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Triggers","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_610B20BC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_610B20BC","objectId":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":19.0,"scaleY":5.0,"x":768.0,"y":320.0,},
@@ -57,8 +63,8 @@
   ],
   "name":"rmPlat3",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tutorial",
+    "path":"folders/Rooms/Tutorial.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

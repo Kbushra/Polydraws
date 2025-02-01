@@ -19,4 +19,5 @@ if timer <= 0
 	}
 	
 	global.wait = 120;
+	global.toggle = false;
 }

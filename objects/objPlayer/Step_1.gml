@@ -12,6 +12,8 @@ if !place_free(x-1, y) { x++; }
 
 verticalChecks();
 
+if !visible { exit; }
+
 var spd = 3;
 if sprite_index == sprCircle { spd = 4.5; }
 hMovement = lerp(hMovement, (global.r - global.l)*spd, 0.2);

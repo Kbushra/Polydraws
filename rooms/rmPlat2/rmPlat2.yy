@@ -32,8 +32,8 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_4800770E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4800770E","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"waiter","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"xPos","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"544",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"yPos","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1376",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"xPos","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"352",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"yPos","path":"objects/objRip/objRip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1312",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objRip","path":"objects/objRip/objRip.yy",},"propertyId":{"name":"targetRoom","path":"objects/objRip/objRip.yy",},"resource":{"name":"rmPlat1","path":"rooms/rmPlat1/rmPlat1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmPlat1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":320.0,},
         {"$GMRInstance":"v1","%Name":"inst_411F0788","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_411F0788","objectId":{"name":"objBalloon","path":"objects/objBalloon/objBalloon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":320.0,},
@@ -78,8 +78,8 @@
   ],
   "name":"rmPlat2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tutorial",
+    "path":"folders/Rooms/Tutorial.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

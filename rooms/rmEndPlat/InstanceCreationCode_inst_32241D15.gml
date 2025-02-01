@@ -1,0 +1,1 @@
+if global.notes == 5 { instance_destroy(); }
