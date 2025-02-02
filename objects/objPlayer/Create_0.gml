@@ -10,6 +10,7 @@ top = -1;
 targ = 0;
 
 forming = true;
-sprite_index = sprSquareForm;
+if string_count("Form", sprite_get_name(global.curShape)) == 1 { sprite_index = global.curShape; }
+else { sprite_index = asset_get_index(sprite_get_name(global.curShape) + "Form"); }
 
 audio_play_sound(sndScribble, 10, false);

@@ -4,10 +4,11 @@ sndId = audio_play_sound(musPaper, 11, true);
 random_get_seed();
 
 global.movement = true;
-global.wait = 120;
+global.wait = 60;
 global.toggle = false;
 
 global.completed = false;
+global.began = false;
 
 pauseMovement();
 
@@ -23,6 +24,8 @@ if !variable_global_exists("respawn")
 	global.notes = 0;
 	global.collected[0] = false;
 	global.collected[4] = false;
+	
+	global.curShape = sprSquareForm;
 }
 
 if global.respawn

@@ -12,12 +12,12 @@ if timer <= 0
 	room_goto(targetRoom);
 	with (objPlayer)
 	{
+		if !forming { sprite_index = asset_get_index(sprite_get_name(sprite_index) + "Form"); }
 		forming = true;
-		sprite_index = sprSquareForm;
 		x = other.xPos;
 		y = other.yPos;
 	}
 	
-	global.wait = 120;
+	global.wait = 60;
 	global.toggle = false;
 }

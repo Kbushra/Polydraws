@@ -1,0 +1,1 @@
+if global.respawn || global.began { instance_destroy(); }

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.4555,
+  "duration":1.28,
   "name":"sndRespawnBell",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sndRespawnBell.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.52,
 }

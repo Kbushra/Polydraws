@@ -1,1 +1,1 @@
-if waiter { global.wait--; }
+if waiter && !objPlayer.forming { global.wait--; }
