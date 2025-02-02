@@ -1,5 +1,19 @@
 if global.shape1 || global.shape2 || global.shape3
 {
+	if !global.shape2 && sprite_index == sprTriangle
+	{
+		mask_index = sprSquare;
+		if place_meeting(x, y, objSolid)
+		{
+			mask_index = sprTriangle;
+			draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale,
+				image_angle, c_red, image_alpha);
+			exit;
+		}
+		
+		mask_index = sprTriangle;
+	}
+	
 	if global.shape1 { targ = 1; }
 	if global.shape2 { targ = 2; }
 	if global.shape3 { targ = 3; }

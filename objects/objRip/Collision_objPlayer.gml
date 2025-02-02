@@ -1,4 +1,4 @@
-if global.wait > 0 { exit; }
+if global.wait > 0 || !suck { exit; }
 
 objPlayer.x = lerp(objPlayer.x, x, 0.1);
 objPlayer.y = lerp(objPlayer.y, y, 0.1);

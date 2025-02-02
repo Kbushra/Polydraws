@@ -1,2 +1,2 @@
 global.resX = 160;
-global.resY = 320;
+global.resY = 256;
