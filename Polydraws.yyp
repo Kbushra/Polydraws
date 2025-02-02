@@ -112,6 +112,7 @@
     {"id":{"name":"sprRip","path":"sprites/sprRip/sprRip.yy",},},
     {"id":{"name":"sprSecret","path":"sprites/sprSecret/sprSecret.yy",},},
     {"id":{"name":"sprSecretsComment","path":"sprites/sprSecretsComment/sprSecretsComment.yy",},},
+    {"id":{"name":"sprSecretsLocked","path":"sprites/sprSecretsLocked/sprSecretsLocked.yy",},},
     {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},},
     {"id":{"name":"sprSpike","path":"sprites/sprSpike/sprSpike.yy",},},
     {"id":{"name":"sprSquare","path":"sprites/sprSquare/sprSquare.yy",},},
