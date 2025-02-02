@@ -19,6 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"f17740e5-81b7-4dee-8e4c-17f90cc0844c","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f17740e5-81b7-4dee-8e4c-17f90cc0844c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"3ff37103-caaf-4dca-ba95-6c2b9ef111e3","blendMode":0,"displayName":"default","isLocked":false,"name":"3ff37103-caaf-4dca-ba95-6c2b9ef111e3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprSolid",

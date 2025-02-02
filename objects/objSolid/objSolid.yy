@@ -35,5 +35,5 @@
     "name":"sprSolid",
     "path":"sprites/sprSolid/sprSolid.yy",
   },
-  "visible":false,
+  "visible":true,
 }
