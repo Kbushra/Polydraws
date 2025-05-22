@@ -1,0 +1,1 @@
+if collectId != 2 && collectId != 3 { depth = objPlayer.depth+1; }

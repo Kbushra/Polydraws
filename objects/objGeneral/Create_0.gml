@@ -3,6 +3,8 @@ sndId = audio_play_sound(musPaper, 11, true);
 
 random_get_seed();
 
+if os_browser != browser_not_a_browser { window_set_size(1366, 768); }
+
 global.movement = true;
 global.wait = 60;
 global.toggle = false;

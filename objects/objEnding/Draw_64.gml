@@ -1,4 +1,7 @@
 if !ending { exit; }
+
+htmlGUI();
+
 draw_sprite_ext(sprBlack, 0, 0, 0, display_get_width(), display_get_height(), 0, c_white, 1);
 
 timer2--;
@@ -12,3 +15,5 @@ if timer2 <= 0
 	
 	if keyboard_check_pressed(vk_enter) { game_end(); }
 }
+
+matrix_set(matrix_world, matrix_build_identity());

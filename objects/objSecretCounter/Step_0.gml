@@ -1,3 +1,5 @@
+depth = objPlayer.depth+1;
+
 image_index = global.notes;
 
 if global.notes == 5 && !created

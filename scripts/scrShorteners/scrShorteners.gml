@@ -23,3 +23,10 @@ function pauseMovement()
 	global.shape2 = false;
 	global.shape3 = false;
 }
+
+function htmlGUI()
+{
+	if os_browser == browser_not_a_browser { return; }
+	var matrix = matrix_build(0, 0, 0, 0, 0, 0, 2, 2, 1);
+	matrix_set(matrix_world, matrix);
+}

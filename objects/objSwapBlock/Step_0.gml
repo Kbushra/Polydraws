@@ -1,3 +1,5 @@
+depth = objPlayer.depth+1;
+
 if sameAsToggle { solid = global.toggle; }
 else { solid = !global.toggle; }
 

@@ -1,5 +1,5 @@
 solid = objPlayer.sprite_index != sprTriangle;
-if image_index >= 2 { instance_destroy(); }
+if image_index > 2 { instance_destroy(); }
 
 if place_meeting(x, y, objPlayer) && sprite_index != sprBalloonPop
 {

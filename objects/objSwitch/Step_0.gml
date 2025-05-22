@@ -1,3 +1,5 @@
+depth = objPlayer.depth+1;
+
 if place_meeting(x, y, objPlayer) && !collided
 {
 	collided = true;
